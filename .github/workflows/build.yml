@@ -304,7 +304,7 @@ jobs:
       - name: Ensure correct app name casing
         run: |
           APP_DIR="build/macos/Build/Products/Release-production"
-          mv "$APP_DIR/fladder.app" "$APP_DIR/Fladder.app"
+          mv "$APP_DIR/Cine Maktep.app" "$APP_DIR/Fladder.app"
 
       - name: Install create-dmg
         run: brew install create-dmg
