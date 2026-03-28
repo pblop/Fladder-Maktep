@@ -305,6 +305,7 @@ jobs:
         run: |
           APP_DIR="build/macos/Build/Products/Release-production"
           cp -r "$APP_DIR/Cine Maktep.app" "$APP_DIR/Fladder.app"
+          cp -r "$APP_DIR/fladder.app" "$APP_DIR/Fladder.app"
 
       - name: Install create-dmg
         run: brew install create-dmg
